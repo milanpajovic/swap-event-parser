@@ -10,7 +10,7 @@ const { RPC_PROVIDER, UNISWAP_V3_POOL_ADDRESS } = process.env;
 
 
 let eventCount = 0;
-const maxEvents = 1;
+const maxEvents = 2;
 
 const provider = new ethers.JsonRpcProvider(RPC_PROVIDER);
 // Connect to the UniswapV3Pool contract
