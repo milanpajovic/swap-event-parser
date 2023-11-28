@@ -127,3 +127,8 @@ function listenForSwapEvents() {
 }
 listenForSwapEvents()
 ```
+
+## Running Tests
+
+- Execute the test suite using the command `yarn test`.
+- Ensure all tests pass to validate the correctness of the Swap event processing logic.

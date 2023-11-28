@@ -3,6 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsconfig": "tsconfig.json"
+      }
+    }
+  },
   "dependencies": {
     "@uniswap/v3-core": "^1.0.1",
     "big-number": "^2.0.0",
@@ -16,6 +31,9 @@
     "parse": "./index.js"
   },
   "devDependencies": {
-    "@types/node": "^20.10.0"
+    "@types/jest": "^29.5.10",
+    "@types/node": "^20.10.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1"
   }
 }
