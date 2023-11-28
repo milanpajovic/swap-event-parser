@@ -10,7 +10,6 @@ describe('Swap Event Tracker Tests', () => {
 
         const balances = parseSwapEvents(testEvents);
         // Check if the balances for each address are correct
-        // Check if the balances for each address are correct
         expect(balances['0xSender1'].WETH.toString()).toBe('-50');
         expect(balances['0xSender1'].USDC.toString()).toBe('0');
         expect(balances['0xRecipient1'].WETH.toString()).toBe('0');
