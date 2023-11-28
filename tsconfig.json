@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "lib": [
+      "ES6",
+      "DOM"
+    ],
+  },
+}
